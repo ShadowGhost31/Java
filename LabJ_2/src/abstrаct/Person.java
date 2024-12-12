@@ -16,7 +16,6 @@ public abstract class Person implements Human {
     private static AtomicInteger counter = new AtomicInteger();
 
     {
-        // Блок ініціалізації
         this.firstname = "Unknown";
         this.lastname = "Unknown";
         this.age = 0;
