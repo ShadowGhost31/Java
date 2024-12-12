@@ -3,7 +3,7 @@ package com.education.ztu.game;
 public class Game {
     public static void main(String[] args) {
 
-        Schoolar schoolar1 = new Schoolar("Іван", 14);
+        Schoolar schoolar1 = new Schoolar("Рома", 14);
         Schoolar schoolar2 = new Schoolar("Оля", 13);
         Schoolar schoolar3 = new Schoolar("Тарас", 15);
         Schoolar schoolar4 = new Schoolar("Наталя", 14);
