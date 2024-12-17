@@ -16,21 +16,21 @@ public class Task2 {
 
         Locale currentLocale = localeUA; // localeUA, localeEN, localeES
 
-        // Задаємо шлях до папки directory_for_files, що знаходиться в LabJ_6
+
         String projectDir = "LabJ_6";
         String directoryPath = projectDir + File.separator + "directory_for_files";
         String fileName = "receipt.txt";
 
-        // Генеруємо звіт
+
         String receiptContent = generateReceipt(currentLocale);
 
-        // Формуємо повний шлях до файлу
+
         String filePath = directoryPath + File.separator + fileName;
 
-        // Записуємо звіт у файл
+
         writeToFile(filePath, receiptContent, directoryPath);
 
-        // Читаємо звіт із файлу
+
         readFromFile(filePath);
     }
 
