@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class Task1 {
 
     public static void main(String[] args) {
-        // Власний текст про співробітників
+
         String employees = """
                 Іванов Іван Іванович, вік: 30, дата народження: 20.05.1992, 
                 посада: Менеджер, досвід роботи: 5 років, адреса: Київ, email: ivanov@example.com, телефон: +380501234567.

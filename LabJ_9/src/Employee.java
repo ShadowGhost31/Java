@@ -1,10 +1,10 @@
 public class Employee {
-    // Поля класу
+
     private String name;
     private int age;
     public String position;
 
-    // Конструктори
+
     public Employee() {
         this.name = "Default Name";
         this.age = 0;
@@ -17,7 +17,7 @@ public class Employee {
         this.position = position;
     }
 
-    // Методи класу
+
     public void displayInfo() {
         System.out.println("Name: " + name + ", Age: " + age + ", Position: " + position);
     }

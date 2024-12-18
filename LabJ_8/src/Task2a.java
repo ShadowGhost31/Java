@@ -2,7 +2,7 @@ import java.util.function.Predicate;
 
 public class Task2a {
     public static void main(String[] args) {
-
+        // Лямбда-вираз для перевірки, чи можна рядок перетворити на число
         Predicate<String> isNumeric = s -> {
             try {
                 Integer.parseInt(s);
